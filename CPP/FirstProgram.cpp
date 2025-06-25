@@ -2,6 +2,8 @@
 using namespace std;
 
 int main(){
-    cout << "Hello World!" << endl;
-    cout << "Hello World!" << endl;
+    int a, b;
+    cin >> a >> b;
+    cout << "Addition of two variables: " << a + b << endl;
+    // cout << "Hello World!" << endl;
 }
