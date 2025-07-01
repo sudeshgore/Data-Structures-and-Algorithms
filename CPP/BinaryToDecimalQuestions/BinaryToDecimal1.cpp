@@ -1,24 +1,20 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-// Convert Decimal number into binary.
+// Convert binary to decimal number
 int main(){
-    int n;
-    cin >> n;
-    vector<int> arr;
-    if(n==0) {
-        cout << n;
+    int binary,base = 1, decimal=0;
+    cin >> binary;
+    if(binary==0) {
+        cout << binary;
     }
     else {
-        while(n > 0){
-        int rem = n%2;
-        arr.push_back(rem);
-        n /= 2;
+        while(binary > 0){
+            int lastDigit = binary%10;
+            decimal += lastDigit* base;
+            base *= 2;
+            binary /= 10; 
         }
-        reverse(arr.begin(), arr.end());
-        for (int i = 0; i < arr.size(); i++)
-        {
-           cout<<arr[i];
-        }
-    }  
+        cout << decimal; 
+    }
 }
