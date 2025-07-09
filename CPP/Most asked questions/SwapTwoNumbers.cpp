@@ -4,7 +4,7 @@ using namespace std;
 int main(){
     int a, b;
     cin >> a >> b;
-    cout << "Before swap" << a << " " << b;
+    cout << "Before swap: " << a << " " << b << "\n";
     swap(a,b);
-    cout << "After swap" << a << " " << b;
+    cout << "After swap: " << a << " " << b;
 }
