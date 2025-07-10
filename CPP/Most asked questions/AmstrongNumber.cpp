@@ -24,6 +24,6 @@ int main(){
         cout<<"Amstrong number!\n";
     }
     else {
-        cout << "Not a amstrong number!\n";
+        cout << "Not an amstrong number!\n";
     }
 }
