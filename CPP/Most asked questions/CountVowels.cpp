@@ -1,5 +1,5 @@
 #include<iostream>
-#include<cstring>
+#include<string.h>
 using namespace std;
 
 bool check(char ch){
@@ -13,13 +13,15 @@ bool check(char ch){
 }
 
 int main(){
-    string str;
-    cin >> str;
+    string str = "CountVowelsFromString";
 
     int count = 0;
-    for (int  i = 0; i < str[i] != '\0'; i++)
+    for (int  i = 0; i < str.length(); i++)
     {
-        /* code */
+       if(check) {
+            count++;
+       }
     }
+    cout << "Number of vowels: " << count;
     
 }
