@@ -2,10 +2,10 @@
 using namespace std;
 
 int main(){
-    int temp;
+    int cel;
     cout << "Enter temperature in celcius: ";
-    cin >> temp;
+    cin >> cel;
 
-    int Fahrenheit = ((temp*9)/5) + 32;
+    int Fahrenheit = ((cel*9)/5) + 32;
     cout << "Temperature in Fahrenheit: " << Fahrenheit;
 }
