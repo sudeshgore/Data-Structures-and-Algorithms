@@ -32,12 +32,12 @@ int main(){
     {
         cin >> nums[i];
     }
-
+    //1st method : Using for-loop. Time complexity- O(n). Space Complexity - O(1).
     // int minimum = minElement(nums, n);
     // int maximum = maxElement(nums, n);
     // cout << "Minimum element is " << minimum << " And " << "maximum element: " << maximum;
 
-    // 2nd method : Using in-build function of C++ STL
+    // 2nd method : Using in-build function of C++ STL. Time complexity- O(n). Space Complexity - O(1).
     int maxi = *max_element(nums, nums+n); 
     int mini = *min_element(nums, nums+n);
     cout << "Minimum element is "<<mini<<" and Maximum element is "<<maxi << "\n";
