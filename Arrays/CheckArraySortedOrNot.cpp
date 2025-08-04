@@ -26,5 +26,4 @@ int main(){
     else {
         cout << "Array is not sorted!\n";
     }
-    
 }
