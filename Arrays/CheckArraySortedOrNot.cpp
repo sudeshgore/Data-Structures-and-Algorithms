@@ -1,6 +1,18 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+bool isArraySorted(int n, int arr[]){
+    for (int i = 0; i < n-1; i++)
+    {
+        if (arr[i] > arr[i+1])
+        {
+            return false;
+            
+        }
+    }
+    return true;
+}
+
 int main(){
     int n;
     cin >> n;
@@ -10,16 +22,8 @@ int main(){
         cin >> arr[i];
     }
 
-    bool flag = true;
-    for (int i = 0; i < n-1; i++)
-    {
-        if (arr[i] > arr[i+1])
-        {
-            flag = false;
-            break;
-        }
-    }
-    if (flag)
+    bool check = isArraySorted(n, arr);
+    if (check)
     {
         cout << "Array is sorted!\n";
     }
