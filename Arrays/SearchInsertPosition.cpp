@@ -8,8 +8,7 @@ int searchInsertIndex(int n, int arr[], int element){
         if(arr[i] == element){
             return i;
         }
-    }
-    
+    } 
 }
 
 int main(){
