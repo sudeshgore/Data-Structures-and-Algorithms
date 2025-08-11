@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-// Q. Search index of given element in the sorted array.
+// Q. Search index of given element in the sorted array and return the index.
 
 int searchInsertIndex(int n, int arr[], int element){
     for (int i = 0; i < n; i++)
