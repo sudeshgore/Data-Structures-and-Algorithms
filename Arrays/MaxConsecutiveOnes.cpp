@@ -15,7 +15,6 @@ int maxConsecutive(vector<int> &arr){
     }
     maxCount = max(maxCount, count);
     return maxCount;
-
 }
 
 int main(){
