@@ -11,7 +11,6 @@ void additionOfMatrix(int a[2][2], int b[2][2]){
             c[i][j] = a[i][j] + b[i][j];
         }
     }
-    
     for (int i = 0; i < 2; i++)
     {
         cout << "[ ";
