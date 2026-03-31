@@ -23,7 +23,6 @@ int main(){
     {
         cin >> arr[i];
     }
-
     int totalDuplicates = countDuplicates(n, arr);
     cout << totalDuplicates;
     
