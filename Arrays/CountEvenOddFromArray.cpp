@@ -20,5 +20,4 @@ int main(){
         }
     }
     cout << "Total even numbers: " << evenNums << " and total odd numbers: " << oddNums;
-    
 }

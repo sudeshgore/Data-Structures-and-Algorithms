@@ -19,7 +19,6 @@ int main(){
     {
         cin >> arr[i];
     }
-
     bool check = searchElement(n, x, arr);
     if (check)
     {

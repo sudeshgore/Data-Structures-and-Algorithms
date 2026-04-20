@@ -6,8 +6,7 @@ bool isArraySorted(int n, int arr[]){
     {
         if (arr[i] > arr[i+1])
         {
-            return false;
-            
+            return false; 
         }
     }
     return true;
