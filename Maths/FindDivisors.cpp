@@ -35,5 +35,4 @@ int main(){
     int n = 12;
    // bruteForceApproach(n); // output - 1 2 3 4 6 12
    // optimizedApproach(n); // output - 1 12 2 6 3 4
-
 }
